@@ -21,7 +21,7 @@ class AppLink {
     this.itemId,
   });
 
-// URL string to app state
+// URL string to app state(link)
 // TODO: Add fromLocation
   static AppLink fromLocation(String? location) {
     // 1
@@ -44,7 +44,7 @@ class AppLink {
     return link;
   }
 
-// App state back to url string
+// App state(link) back to url string
 // TODO: Add toLocation
   String toLocation() {
     // 1
